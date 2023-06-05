@@ -6,7 +6,9 @@ package controler;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.canvas.Canvas;
 
 /**
  * FXML Controller class
@@ -14,6 +16,9 @@ import javafx.fxml.Initializable;
  * @author Gabriel
  */
 public class C_game_window implements Initializable {
+
+    @FXML
+    private Canvas Game_camvas;
 
     /**
      * Initializes the controller class.

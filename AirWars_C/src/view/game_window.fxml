@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.canvas.*?>
 <?import javafx.scene.chart.*?>
@@ -10,12 +11,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="901.0" prefWidth="1493.0" style="-fx-background-color: #353535;" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controler.C_game_window">
+<AnchorPane id="AnchorPane" prefHeight="901.0" prefWidth="1493.0" style="-fx-background-color: #353535;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controler.C_game_window">
     <stylesheets>
         <URL value="@game_window.css" />
     </stylesheets>
    <children>
-      <Canvas height="809.0" layoutX="14.0" layoutY="83.0" width="994.0">
+      <Canvas fx:id="Game_camvas" height="809.0" layoutX="41.0" layoutY="39.0" width="994.0">
          <effect>
             <Lighting>
                <bumpInput>

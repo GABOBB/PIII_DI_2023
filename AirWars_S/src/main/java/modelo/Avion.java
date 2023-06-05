@@ -5,15 +5,9 @@
 package modelo;
 
 /**
- * en esta clase se administra lo necesario para mantener una estructura de datos 
- * general en este caso un grafo;
+ *
  * @author Gabriel
  */
-public class Grafo {
-    int grafo[][];
-    Lista graf;
+public class Avion {
     
-    private class nodo{
-        
-    }
 }
